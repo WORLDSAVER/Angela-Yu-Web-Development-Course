@@ -1,0 +1,21 @@
+echoo $SHELL
+ls -a
+mkdir .SecretStuff // to create hidden folders
+ls(list)
+cd(change directory)
+cd ~ -> brings us back to the root folder
+Use Alt + mouse to go to any part of any command in the CLI
+If you direcly just type out the path then you can directly go to the specified folder or directory irrespective
+of your current location.
+ctrl + A -> Go to the start of your command.
+ctrl + E -> Go to the end of your command.
+ctrl + U -> Remove the current command without having to execute it or having to backspace the whole command.
+touch file_name.extension -> To create a new file
+start file_name.extension -> To open that file
+start code file_name.extension -> To open file using VS Code 
+start atome file_name.extension -> To open file using atom
+pwd -> To know your current directory, (print working directory)
+rm file_name.extension -> To delete a file
+rm * -> To delete all files in the working directory
+rm -r foldername -> To delete the folder
+sudo -> super user do

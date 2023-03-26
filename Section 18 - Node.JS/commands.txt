@@ -1,0 +1,6 @@
+node --version -> Shows the currently installed version of Node on your computer
+/ -> Starting / is called root
+node file_name.js -> Runs JavaScript file in your terminal
+ctrl + c twice -> To exit any process or close servers
+.exit -> To close node repl
+repl -> read evaluation print loops

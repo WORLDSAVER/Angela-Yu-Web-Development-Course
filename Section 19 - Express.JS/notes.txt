@@ -1,0 +1,11 @@
+atom . ->This command will open up your current directory inside atom
+code . ->Similar to above it will open up your current directory inside of VS Code.
+npm install express --save -> --save added express to your dependencies list inside of packages.json but with npm 5.0.0+
+it automatically gets added hence we can directly use npm install express
+
+localhost:3000 -> We use localhost as our server is set up locally and after colon we mention the port at which our server is set up on in our case which is 3000
+
+Cannot GET / -> This basically means that when our browser is getting in touch with our server which in our case we set up at port 3000 it is not able to get anything back, now we have to see how to send something to the browser when our browser makes the GET request.
+Our server is listening on port 3000 for any browsers which are trying to get in touch with it. The / basically means that we are at the root of our website or the homepage when we type https://google.com/ browser serves us with the root of google or we can say google.com's homepage
+
+When we type in google.com in our browser what happens is that our browser sends a request to get data for homepage to Google's servers and the servers sends a response in that response it sends us the HTML, CSS and JS of google's homepage which is required to render googles website or homepage

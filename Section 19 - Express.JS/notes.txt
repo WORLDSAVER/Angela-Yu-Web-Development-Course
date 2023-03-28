@@ -8,4 +8,8 @@ localhost:3000 -> We use localhost as our server is set up locally and after col
 Cannot GET / -> This basically means that when our browser is getting in touch with our server which in our case we set up at port 3000 it is not able to get anything back, now we have to see how to send something to the browser when our browser makes the GET request.
 Our server is listening on port 3000 for any browsers which are trying to get in touch with it. The / basically means that we are at the root of our website or the homepage when we type https://google.com/ browser serves us with the root of google or we can say google.com's homepage
 
+Nodemon looks for any changes in our codebase and automatically restarts the server so we don't have to write node server.js each and every time that we make some changes in our codebase.
+nodemon server.js will run server.js or our server through nodemon,
+node server.js will run server.js or our server through node
+
 When we type in google.com in our browser what happens is that our browser sends a request to get data for homepage to Google's servers and the servers sends a response in that response it sends us the HTML, CSS and JS of google's homepage which is required to render googles website or homepage

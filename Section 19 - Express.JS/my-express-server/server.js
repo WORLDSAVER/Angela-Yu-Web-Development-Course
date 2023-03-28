@@ -24,6 +24,21 @@ const app = express(); //generally app word is used to initialize express and cr
 app.get("/", function(req, res)
 {
   res.send('<h1 style = "color:#EAF6F6;">Hridyansh Fucking Pareek</h1>')
+}); //the first argument of the get function is the route, it basically means that when a user goes on the homepage or / then we will res
+//pond with this
+app.get("/contact", function(req, res)
+{
+  res.send("You all can reach out to me at hridyansh@hridyansh.com");
+});//This has the argument for /contact hence when we go to the contact page we will be served with this response
+//localhost:3000/contact will lead us to this response.
+app.get("/about", function(req, res)
+{
+  res.send("Hi, I am Hridyansh Pareek, a software developer and a Masters student at IIT Delhi");
+});
+
+app.get("/cv", function(req, res)
+{
+  res.send("Hi, this is cv");
 });
 app.listen(3000, function()
 {

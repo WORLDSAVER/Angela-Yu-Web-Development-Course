@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <!-- <form action = "index.html" method = "post"> -->
+    <form action = "/" method = "post">
+      <!-- method = "post" basically means that we are sending this data and where are we sending it to? -->
+      <!-- we are sending it to index.html, but we actually want to send it to the home route so we use / -->
+      <!-- if action attribute is not mentioned then it is automatically sending the data to the current page we are on so it will also work. -->
+      <!-- so we can say that it is sending the data to our home route -->
+      <input type = "text" name = "num1" placeholder = "Enter number 1">
+      <input type = "text" name = "num2" placeholder = "Enter number 2">
+      <button type = "submit" name = "submit">Calculate</button>
+      <!-- name attribute is nothing but like a variable name for our particular inputs, it will uniquely identify the data that is in out inputs -->
+    </form>
+  </body>
+</html>
+
+
+<!-- http return codes general meaning
+starts with 1 generally means hold on
+starts with 2 generally means here you go
+with 3 means go away
+with 4 means you fucked up
+with 5 means I fucked up
+4XX are generally client errors meaning user is requesting something which does not exist-->

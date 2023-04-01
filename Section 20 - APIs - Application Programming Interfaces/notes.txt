@@ -1,0 +1,27 @@
+APIs can either be used to create software as we did with jQuery API where we 
+accessed methods functions etc of jQuery and we did not write out our own JS 
+code or APIs can be used to interract with external software and use their data 
+examples include when Tinder uses Facebook's data on the Instagram profile photos of 
+users their likes and interests etc and showcases it on their own app.
+
+When we use an API our own server sends a request to someone elses server and 
+their server sends us a response.
+
+ https://v2.jokeapi.dev/joke/Programming,Misc?format=xml&blacklistFlags=nsfw,sexist&type=single&lang=ru&amount=2 
+
+ In the above URL https://v2.jokeapi.dev/joke is the API endpoint, in many cases if we 
+ just type in the endpoint in our url we may get an error.
+
+ To prevent the error we mention the API endpoint path which is done by using / and then mentioning the path 
+ from where we will fetch the data. /Programming,Misc is the path, we could also have /Programming only
+ , here gives us jokes from either Programming path or Miscellaneous path.
+
+ ?format=xml&blacklistFlags=nsfw,sexist&type=single&lang=ru&amount=2, all these are the parameters which are used 
+ to make our API call more defined, parameters are written after a ? and they contain key value pairs, 
+ where the key is first written then we use = and after = we write the value, parameters are seperated using 
+ &(ampersand) and , can also be used to assign multiple values to same parameter.
+
+ We can query external websites for the data they have using APIs.
+
+ ?format=xml&blacklistFlags=nsfw,sexist&type=single&lang=ru&amount=2 order of the parameters does not matter 
+ as long as we seperate them by & 
